@@ -1,0 +1,168 @@
+
+@media only screen and (min-width:768px) and (max-width:991px){
+    .container{
+        width:90%;
+         
+    }
+    .singlePerson-box{
+        width:48%;
+     
+    }
+    .teamBox{
+     
+       flex-wrap: wrap;
+    }
+}
+
+
+
+@media only screen and (min-width:575px) and (max-width:768px){
+    .container{
+        width:90%;
+         
+    }
+    .singlePerson-box{
+        width:48%;
+     
+    }
+    .teamBox{
+     
+       flex-wrap: wrap;
+    }
+    .team-title{
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width:575px){
+    .container{
+        width:90%;
+         
+    }
+    .singlePerson-box{
+        width:100%;
+     
+    }
+    .teamBox{
+     
+       flex-wrap: wrap;
+    }
+    .team-title{
+        width: 90%;
+    }
+}
+
+
+@media only screen and (max-width:992px){
+
+
+    .topNavBar{
+        display: none;
+    }
+  
+    .navLogo {
+        margin-top: 0px;
+       width: 150px;
+    }
+    
+  
+    
+    button#open-menu {
+        border: navajowhite;
+        font-size: 30px;
+        margin-top: -38px;
+        float: right;
+    }
+    
+    menu.NavBarInnerContent {
+        width: 90%;
+        padding: 20px 0px;
+    }
+
+    nav.mainMenu {
+   background: #1D6EDC;
+   width: 350px;
+   height: 100vh;
+   position: absolute;
+   z-index: 999;
+   top: 0;
+   left: -350px;
+   transition:1s cubic-bezier(0.075, 0.82, 0.165, 1);
+   -webkit-transition:1s cubic-bezier(0.075, 0.82, 0.165, 1);
+   -moz-transition:1s cubic-bezier(0.075, 0.82, 0.165, 1);
+   -ms-transition:1s cubic-bezier(0.075, 0.82, 0.165, 1);
+   -o-transition:1s cubic-bezier(0.075, 0.82, 0.165, 1);
+   
+}
+
+    .mainMenu li{
+        float: none;
+        width: 100%;
+    }
+    
+    .menuList li a { padding: 0px; font-weight: 500; padding: 10px 15px; color: white; transition:0.5s; -webkit-transition:0.5s; -moz-transition:0.5s; -ms-transition:0.5s; -o-transition:0.5s; }
+    .menuList li a:hover{
+        background-color: black;
+        color:white;
+    }
+    .menuList .subMenuList {
+        transform: scaleY(0);
+        opacity: 0;
+        background: blue;
+        width: 100%;
+        position: static;
+        padding: 0px;
+        top:0;
+        -webkit-transform: scaleY(0);
+        -moz-transform: scaleY(0);
+        -ms-transform: scaleY(0);
+        -o-transform: scaleY(0);
+        display: none;
+}
+
+
+
+.subMenuListitem {
+    transform: scaleY(1) !important;
+    opacity: 1 !important;
+    -webkit-transform: scaleY(1) !important;
+    -moz-transform: scaleY(1) !important;
+    -ms-transform: scaleY(1) !important;
+    -o-transform: scaleY(1) !important;
+    display: block !important;
+} 
+
+
+    ul.subMenuList li a {
+        padding-left: 40px;
+    }
+    ul.subMenuList li a:hover {
+        padding-left: 60px;
+    }
+
+.showNavBar{
+    left: 0px !important;
+
+}
+
+
+
+
+
+.menuList li a:hover{
+    display:block;
+}
+
+
+
+
+
+    button#open-menu {
+       cursor: pointer;
+    }
+    .navSearch{
+        display: block;
+    }
+
+}
+
